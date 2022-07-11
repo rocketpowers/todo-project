@@ -1,0 +1,11 @@
+[33mcommit e5455ed887304f6e5d9db4b34ff28a84020b5bd9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: unknown <rocketpowerswillian@gmail.com>
+Date:   Sat Jul 9 12:44:47 2022 -0300
+
+    domain + persistence h2 ok
+
+[33mcommit 69594b260a83c201bed0810b57e7781d67bdad8f[m
+Author: unknown <rocketpowerswillian@gmail.com>
+Date:   Thu Jul 7 20:32:57 2022 -0300
+
+    simple full-stack project
