@@ -22,20 +22,20 @@ public class Todo implements Serializable {
 	private String title;
 	private String description;
 	private LocalDateTime dateForFinished;
-	private Boolean fineshed = false;
+	private Boolean finished = false;
 
 	public Todo() {
 		super();
 
 	}
 
-	public Todo(Integer id, String title, String description, LocalDateTime dateForFinished, Boolean fineshed) {
+	public Todo(Integer id, String title, String description, LocalDateTime dateForFinished, Boolean finished) {
 		super();
 		this.id = id;
 		this.title = title;
 		this.description = description;
 		this.dateForFinished = dateForFinished;
-		this.fineshed = fineshed;
+		this.finished = finished;
 	}
 
 	public Integer getId() {
@@ -62,20 +62,20 @@ public class Todo implements Serializable {
 		this.description = description;
 	}
 
-	public LocalDateTime getDataParaFinalizar() {
+	public LocalDateTime getDateForFinished() {
 		return dateForFinished;
 	}
 
-	public void setDataParaFinalizar(LocalDateTime dataParaFinalizar) {
+	public void setDateForFinished(LocalDateTime dataParaFinalizar) {
 		this.dateForFinished = dataParaFinalizar;
 	}
 
 	public Boolean getFineshed() {
-		return fineshed;
+		return finished;
 	}
 
 	public void setFineshed(Boolean fineshed) {
-		this.fineshed = fineshed;
+		this.finished = fineshed;
 	}
 
 	public static long getSerialversionuid() {
