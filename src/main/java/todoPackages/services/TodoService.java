@@ -31,4 +31,9 @@ public class TodoService {
 		return list;
 	}
 
+	public List<Todo> findAll() {
+		List<Todo> list =repository.findAll();
+		return list;
+	}
+
 }
